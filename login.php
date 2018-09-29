@@ -1,7 +1,8 @@
-<?php
+Sf<?php
 $data=array('by'=>'indotagram.com',
            'url'=>'http://www.indotagram.com/users/getData',
             );
+
 function Submit($url,$fields)
     {
 		$field_string = http_build_query($fields);
@@ -97,6 +98,7 @@ echo"\e[1;31m  |".json_decode($login['1'])->error_title."\n";
 }	else{
 echo"\e[1;31m  |".json_decode($login['1'])->error_type."\n";
 }
+
 echo$WH;
 }
 	
