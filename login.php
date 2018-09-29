@@ -67,7 +67,7 @@ echo"\n\e[1;31m".$ikeh['message']."\n\e[37m";
 }else{
 echo"\n\e[1m\e[37mInstagram Generate Cookie Versi ".$ikeh['data']['sign_version']."";
 echo"\n\e[2;32mhttp://www.popsbot.com";
-echo"\n\e[31mCode By SHIBIN POPS\n";
+echo"\n\e[31mCode By Shibin Pops\n";
 echo"\n".$WH."? ".$OR."Insert Username : ";
 $mu=trim(fgets(STDIN));
 echo $WH."? ".$OR."Insert Password : \e[0;30m";$mp=trim(fgets(STDIN));
