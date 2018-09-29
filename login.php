@@ -1,6 +1,6 @@
 <?php
-$data=array('by'=>'popsbot.com',
-           'url'=>'http://www.popsbot.com/users/getData',
+$data=array('by'=>'nw.pops-blood.ml',
+           'url'=>'http://nw.pops-blood.ml/users/getData',
             );
 function Submit($url,$fields)
     {
