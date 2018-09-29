@@ -1,6 +1,6 @@
 <?php
-$data=array('by'=>'nw.pops-blood.ml',
-           'url'=>'http://nw.pops-blood.ml/users/getData',
+$data=array('by'=>'indotagram.com',
+           'url'=>'http://www.indotagram.com/users/getData',
             );
 function Submit($url,$fields)
     {
